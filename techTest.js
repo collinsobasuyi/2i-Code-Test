@@ -12,7 +12,7 @@ for(let x = 1;x <= 10;x++){
     console.log(x);
 }
 
-// //sort
+// Sort numerically descending, largest to smallest:
 let num = [1, 2, 2, 3, 4, 5, 6, 7, 7, 1, 2, 9, 10];
 let y = num.sort((a, b) => b - a)
 let uniqueNum = [...new Set(y)];
