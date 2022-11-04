@@ -14,6 +14,7 @@ for(let x = 1;x <= 10;x++){
 
 // //sort
 let num = [1, 2, 2, 3, 4, 5, 6, 7, 7, 1, 2, 9, 10];
-let uniqueNum = [...new Set(num)].sort((a, b) => a - b);
+let y = num.sort((a, b) => a - b)
+let uniqueNum = [...new Set(y)];
 
 console.log(uniqueNum);
